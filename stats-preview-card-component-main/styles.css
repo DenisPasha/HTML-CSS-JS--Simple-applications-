@@ -1,0 +1,104 @@
+
+html{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main-container{
+    border: solid black 2px;
+    margin: 35px 15px;
+    height: 650px;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(233, 227, 227, 0.4)
+}
+
+.img-container{
+    height: 35%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.main-text{
+    height: 20%;
+}
+.main-text h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -5px;
+    
+}
+.main-text p{
+    text-align: center;
+    font-size: 12px;
+}
+.secondary-text{
+    height: 40%;
+}
+
+#one h3, #two h3 ,#three h3{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+p{
+   opacity: 0.5;
+   font-size: 15px;
+}
+
+#one ,#two , #three {
+    text-align: center;
+    height: 33%;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+.overlay{
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 232px;
+    opacity: 0.4;
+    margin-top: -232px;
+}
+
+@media (min-width: 620px){
+ 
+    .main-container{
+        display: flex;
+        height: 350px;
+        flex-direction: row-reverse;
+    }
+    .img-container{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .overlay{
+        margin-top: -355px;
+        height: 100%;
+    }
+    .main-text{
+        padding-bottom: 60px;
+    }
+    .secondary-text{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        margin-top: 10px;
+        height: 100px;
+    }
+    .test-container{
+        padding: 20px;
+    }
+    
+}
+
