@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Main-Content */
+
+.main-content{
+    margin-top: 50px;
+
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content h4{
+    color: rgb(178, 184, 184);
+}
+
+.main-content p{
+    color: rgb(178, 184, 184);;
+}
+
+.main-content h1{
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+
+/* Explore-circle */
+#explore-circle{
+
+    margin:30px;
+    border-radius: 100px;
+    width: 200px;
+    min-height: 190px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#explore-circle h2{
+    margin-top: 80px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+@media (min-width:900px) {
+    body{
+        background-image: url(assets/home/background-home-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    
+    /* Main content */
+    .main-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        min-height: 500px;
+    }
+    .text{
+        width: 40%;
+        margin-left: 0px;
+        text-align: left;
+        min-height: 400px;
+    }
+   
+    .text h4{
+        text-transform: uppercase;
+    }
+    #explore-circle{
+        width: 200px;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+}
